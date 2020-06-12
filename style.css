@@ -1,0 +1,213 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav.main-menu{
+    width: 100%;
+    height: 40px;
+    display: inline-block;
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+
+nav.main-menu li{
+    display: inline-block;
+    padding: 0 15px 0 15px;
+}
+
+nav.main-menu ul{
+    padding: 0px 0px 0px 250px;
+}
+nav.main-menu  ul li.login{
+    padding: 0 0 0 800px;
+}
+section.haut{
+    background-color: rgb(30, 147, 204);
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+section.haut h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 120px 0px 0px 0px;
+    font-size: 35px;
+    font-weight: 50;
+}
+section.haut button{
+    margin: 30px 800px 30px 800px;
+    padding: 20px 10px 20px 10px;
+    border: 3px solid white;
+    background-color: rgb(233, 144, 2);
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+section.haut img.bonhomme{
+    width: 13%;
+    height: 70%;
+    position: absolute;
+    top: 50px;
+    left: 175px;
+
+}
+section.millieu_haut{
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+section.millieu_haut h1{
+    font-size: 28px;
+    font-weight: 35;
+    margin: auto;
+}
+section.millieu_bas{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(30, 147, 204);
+    column-count: 2;
+    padding-left: 300px;
+    padding-right: 220px;
+    padding-top: 35px;
+    padding-bottom: 25px;
+    position: relative;
+}
+section.millieu_bas h1{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: 50;
+}
+section.millieu_bas p{
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+section.millieu_bas img{
+    position: absolute;
+    top: 220px;
+    right: 20px;
+}
+section.innovative{
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+section.innovative h1{
+    margin: auto;
+    color: rgb(107, 104, 101);
+    font-weight: 3;
+    font-size: 25px;
+}
+section.logos{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(238, 238, 238);
+    display: inline-block;
+}
+section.logos div.logo_haut{
+    margin: 50px 0px 0px 600px;
+}
+section.logos div.logo_haut img.miles{
+    padding-right: 35px;
+}
+section.logos div.logo_haut img.app{
+    padding-right: 35px;
+}
+section.logos div.logo_haut img.spectrum{
+    padding-right: 35px;
+}
+section.logos div.logo_haut img.knowit{
+    padding-right: 35px;
+}
+section.logos div.logo_haut img.hatchery{
+    padding-right: 35px;
+}
+section.logos div.logo_haut img.fwd{
+    padding-right: 35px;
+}
+section.logos div.logo_bas{
+    display: flex;
+}
+section.logos div.logo_bas img.product{
+    padding-left: 900px;
+    padding-top: 90px;
+}
+section.bouton_bas{
+    width: 100%;
+    height: 350px;
+}
+section.bouton_bas ul{
+    display : flex;
+    display: row;
+    justify-content: center;
+    padding-top: 75px;
+}
+section.bouton_bas ul li.bleu{
+    background-color: rgb(22, 88, 130);
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    padding: 20px 30px 20px 30px;
+    margin: 10px 3px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 50;
+}
+section.bouton_bas ul li.orange{
+    background-color: rgb(233, 144, 2);
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    padding: 20px 30px 20px 30px;
+    margin: 10px 3px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 50;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+}
+
+nav.bottom_menu{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(34, 34, 34);
+    color: rgb(255, 255, 255);
+    position: relative;
+}
+nav.bottom_menu ul{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px 10px 10px;
+    margin: 0px;
+}
+nav.bottom_menu ul li{
+    padding: 0px 20px 0px 10px;
+    list-style-type: none
+}
+nav.bottom_menu ul li.exclu{
+    border-left: 0.4px dashed white ;
+}
+p.copyrith{
+    background-color: rgb(34, 34, 34);
+    color: rgb(255, 255, 255);
+    width: 180px;
+    padding-top: 10px;
+    padding-right: 30px;
+}
+p img{
+    position: absolute;
+    top: 1580px;
+    right: 15px;
+}
+section.haut img.logo_cloud{
+    position: absolute;
+    top: 10px;
+    right: 730px;
+}
