@@ -1,7 +1,5 @@
-# Becode-First-Part
+# Becode-Turlututu
 
-
-![The Gif](/assets/gif.gif)
 
 
 
@@ -20,6 +18,3 @@ Je m'apelle Jacquet Nathan et je suis apprenant a Becode Promo Woods 3.21
 [Github](https://github.com/jacquetnathan)
 
 
-
-
-![Becode](assets/becode.png)
